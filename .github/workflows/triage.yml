@@ -1,6 +1,7 @@
 name: Triage new issues to Oncall board
 
 on:
+  workflow_dispatch:
   issues:
     types: [opened, reopened]
 
